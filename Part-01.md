@@ -4,7 +4,7 @@ A backup script in shell scripting is a script written in a shell language (like
 
 # Create a file to run the script 
 ```shell
-!/bin/bash
+#!/bin/bash
 SOURCE="/home/ubuntu/dir_information"
 DESTINATION="/home/ubuntu/dir_destination"
 DATE=$( date +"%Y-%m-%d %H:%M:%S")
