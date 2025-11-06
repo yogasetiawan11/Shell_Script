@@ -9,6 +9,7 @@ then
 echo "$HOST is reachable" >> OUTPUT_FILE
 else
 echo "$HOST is NOT reachable" >> OUTPUT_FILE
+fi
 ```
 
 - HOST -> the hostname or IP address to ping
